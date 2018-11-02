@@ -49,7 +49,7 @@ window.onload = function () {
                 content: '',
                 justification: 'center',
                 fontSize: 30,
-                fillColor: 'red'
+                fillColor: 'black'
             });
         }
 
@@ -68,7 +68,6 @@ window.onload = function () {
                     blankArray[x] = lettArray[x];
                     console.log(blankArray[x]);
                     placedText[x].content = blankArray[x];
-                    placedText[x].fillColor.hue += 30;
                     x = lettArray.indexOf(event.key, ++x);
                 }
 
